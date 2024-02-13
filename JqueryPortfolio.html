@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #251F26;
+}
+html {
+  scroll-behavior: smooth;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #251F26;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #16151A;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #786D75;
+  color: white;
+}
+.button {
+  background-color: #a0939c; 
+  border: none;
+  color: #2c2731;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  max-width: 130px;
+  max-height: 70px;
+  margin: auto;
+  margin-top: 8px;
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #a0939c;
+  color: #2c2731;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+}
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.flexcontainer {
+  display: flex;
+  background-color: #786D75;
+  text-align: center;
+}
+  img {
+    width: 30%;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .column {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50%;
+  padding: 45px;
+  height: 380px;
+  border-radius: 20px;
+}
+button {
+  background-color: #2c2731; 
+  border: none;
+  color: #a0939c;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 130px;
+  max-height: 70px;
+  margin: auto;
+  margin-top: 8px;
+}
+.row:after {
+  padding: 20px;
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+    background-color:#786D75;
+    color: #251F26;
+    margin-top: 100px;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+  <script src="\Users\ebush\Desktop\Html\UXUI_HW_19\SmoothScrolliung.js"></script>
+<div class="topnav">
+  <a class="active" href="#name">Emma Bush</a>
+  <a href="#Projects">Projects</a>
+  <a href="#AboutMe">About Me</a>
+  <a href="#Portfolio">Illustration Portfolio</a>
+</div>
+<div class="card">
+   <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\crop4.jpg" alt="pic of me" style=" text-align: center;">
+    <div class="container">
+      <h1><b>Emma Bush</b></h1>
+      <p>UX/UI Designer</p>
+      <p>Entry-level UX/UI designer with a
+        background in graphic design,
+        illustration, and web design. Strengths in wireframing,
+        innovative design, problem-solving,
+        and collaborative and independent work.</p>
+    </div>
+  </div>
+  <div class="button">
+    <button class="button">My Resume</button>
+  </div>
+<section>
+  <h1 style="color: #a0939c;">My Skills</h1>
+  <div class="flexcontainer">
+    <div style="width: 30%;">
+      <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+      <h1>User Interface Design</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Pellentesque ultrices, eros eget ornare consequat, mi 
+        justo vulputate massa, mollis euismod nisl neque et.</p>
+    </div>
+    <div style="width: 30%;">
+      <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+      <h1>User Research</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Pellentesque ultrices, eros eget ornare consequat, mi 
+        justo vulputate massa, mollis euismod nisl neque et.</p>
+    </div>
+    <div style="width: 30%;">
+      <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+      <h1>Web Development</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Pellentesque ultrices, eros eget ornare consequat, mi 
+        justo vulputate massa, mollis euismod nisl neque et.</p>
+    </div>
+  </div>
+</section>
+<section>
+<h1 style="color: #a0939c;">My Work</h1>
+<div class="row" id="Projects">
+  <div class="column" style="background-color: #a0939c;">
+    <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+    <h4 style="color: #2c2731;">FBI Webiste Redesign</h4>
+    <p style="color: #2c2731;">Redesigned the homepage layout and navigation for the official FBI.gov webiste.</p>
+    <button>Project Title</button>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color: #a0939c;">
+   <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+   <h4 style="color: #2c2731;">Egyptian Theater Redesign</h4>
+   <p style="color: #2c2731;">Redesigned the website and ticketing process for the Egyptian Theater, a nonprofit organization in Park City, Utah.</p>
+   <button>Project Title</button>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color: #a0939c;">
+   <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+   <h4 style="color: #2c2731;">Project Title</h4>
+   <p style="color: #2c2731;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, eros eget ornare consequat, mi justo vulputate massa, mollis euismod nisl neque et velit.</p>
+   <button>Project Title</button>
+  </div>
+</div>
+<div class="row">
+   <div class="column" style="background-color: #a0939c;">
+    <img src="\Users\ebush\Desktop\Html\UXUI_HW_19\image.jpg">
+    <h4 style="color: #2c2731;">Project Title</h4>
+    <p style="color: #2c2731;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Pellentesque ultrices, eros eget ornare consequat, mi 
+    justo vulputate massa, mollis euismod nisl neque et velit.</p>
+    <button>Project Title</button>
+  </div>
+</div>
+  <h4 style="text-align: center;"><a href="#">View all projects</a></h4>   
+  </div>
+</div>
+</section>
+</body>
+<footer>
+    <h2>Emma Bush</h2>
+    <p>Contact Me</p>
+    <ul>
+        <li><a href="#">ebushuk19@gmail.com</a></li>
+        <li><a href="#">435.513.9279</a></li>
+        <li><a href="#">My Resume</a></li>
+    </ul>
+</footer>
+</html>
